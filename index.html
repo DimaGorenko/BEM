@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="burger-menu">
+        <span class="burger-menu__line"></span>
+        <span class="burger-menu__line"></span>
+        <span class="burger-menu__line"></span>
+    </div>
+    <aside class="sidepart">
+        <div class="sidepart__container">
+            <div class="logo">
+                <img class="logo__icon" src="images/logo.svg" alt="Logo">
+                <p class="logo__company-name">Dashboard<span class="logo__version">v.01</span></p>
+            </div>
+            <div class="sidepart__menu">
+                <div class="sidepart__item">
+                    <img class="sidepart__icon" src="images/dashboard.svg" alt="Dashboard">
+                    <p class="sidepart__name">Dashboard</p>
+                    <span class="sidepart__arrow"></span>
+                </div>
+                <div class="sidepart__item">
+                    <img class="sidepart__icon" src="images/product.svg" alt="Product">
+                    <p class="sidepart__name">Product</p>
+                    <span class="sidepart__arrow"></span>
+                </div>
+                <div class="sidepart__item sidepart__item_active">
+                    <img class="sidepart__icon sidepart__icon_active" src="images/customers.svg" alt="Customers">
+                    <p class="sidepart__name sidepart__name_active">Customers</p>
+                    <span class="sidepart__arrow sidepart__arrow_active"></span>
+                </div>
+                <div class="sidepart__item">
+                    <img class="sidepart__icon" src="images/income.svg" alt="Income">
+                    <p class="sidepart__name">Income</p>
+                    <span class="sidepart__arrow"></span>
+                </div>
+                <div class="sidepart__item">
+                    <img class="sidepart__icon" src="images/promote.svg" alt="Promote">
+                    <p class="sidepart__name">Promote</p>
+                    <span class="sidepart__arrow"></span>
+                </div>
+                <div class="sidepart__item">
+                    <img class="sidepart__icon" src="images/help.svg" alt="Help">
+                    <p class="sidepart__name">Help</p>
+                    <span class="sidepart__arrow"></span>
+                </div>
+            </div>
+            <div class="sidepart-footer">
+                <div class="sidepart-footer__user-photo-container">
+                    <img class="sidepart-footer__user-photo" src="images/user-photo.svg" alt="User Photo">
+                </div>
+                <div class="sidepart-footer__username-info-container">
+                    <p class="sidepart-footer__username">Evano</p>
+                    <p class="sidepart-footer__position">Project Manager</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <main class="main">
+        <section class="main__container">
+            <h2 class="main__greeting">Hello Evano 👋🏼,</h2>
+            <article class="window">
+                <header class="window__header">
+                    <div class="window__titles">
+                        <h2 class="window__title">
+                            All Customers
+                        </h2>
+                        <h5 class="window__subtitle">Active Members</h5>
+                    </div>
+                    <input class="window__search" type="search" placeholder="Search">
+                </header>
+                <div class="window__info-items">
+                    <p class="window__info-item">Customer Name</p>
+                    <p class="window__info-item">Company</p>
+                    <p class="window__info-item">Phone Number</p>
+                    <p class="window__info-item">Email</p>
+                    <p class="window__info-item window__info-item_width_xl">Country</p>
+                    <p class="window__info-item window__info-item_width_xs">Status</p>
+                </div>
+                <div class="window__user-items">
+                    <div class="window__user-item">
+                        <p class="window__user-info">Jane Cooper</p>
+                        <p class="window__user-info">Microsoft</p>
+                        <p class="window__user-info">(225) 555-0118</p>
+                        <p class="window__user-info">jane@microsoft.com</p>
+                        <p class="window__user-info">United States</p>
+                        <p class="window__user-info window__user-info_online_active">Active</p>
+                    </div>
+                    <div class="window__user-item">
+                        <p class="window__user-info">Floyd Miles</p>
+                        <p class="window__user-info">Yahoo</p>
+                        <p class="window__user-info">(205) 555-0100</p>
+                        <p class="window__user-info">floyd@yahoo.com</p>
+                        <p class="window__user-info">Kiribati</p>
+                        <p class="window__user-info window__user-info_online_inactive">Inactive</p>
+                    </div>
+                    <div class="window__user-item">
+                        <p class="window__user-info">Ronald Richards</p>
+                        <p class="window__user-info">Adobe</p>
+                        <p class="window__user-info">(302) 555-0107</p>
+                        <p class="window__user-info">ronald@adobe.com</p>
+                        <p class="window__user-info">Israel</p>
+                        <p class="window__user-info window__user-info_online_inactive">Inactive</p>
+                    </div>
+                    <div class="window__user-item">
+                        <p class="window__user-info">Marvin McKinney</p>
+                        <p class="window__user-info">Tesla</p>
+                        <p class="window__user-info">(252) 555-0126</p>
+                        <p class="window__user-info">marvin@tesla.com</p>
+                        <p class="window__user-info">Iran</p>
+                        <p class="window__user-info window__user-info_online_active">Active</p>
+                    </div>
+                    <div class="window__user-item">
+                        <p class="window__user-info">Jerome Bell</p>
+                        <p class="window__user-info">Google</p>
+                        <p class="window__user-info">(629) 555-0129</p>
+                        <p class="window__user-info">jerome@google.com</p>
+                        <p class="window__user-info">Réunion</p>
+                        <p class="window__user-info window__user-info_online_active">Active</p>
+                    </div>
+                    <div class="window__user-item">
+                        <p class="window__user-info">Kathryn Murphy</p>
+                        <p class="window__user-info">Microsoft</p>
+                        <p class="window__user-info">(406) 555-0120</p>
+                        <p class="window__user-info">kathryn@microsoft.com</p>
+                        <p class="window__user-info">Curaçao</p>
+                        <p class="window__user-info window__user-info_online_active">Active</p>
+                    </div>
+                    <div class="window__user-item">
+                        <p class="window__user-info">Jacob Jones</p>
+                        <p class="window__user-info">Yahoo</p>
+                        <p class="window__user-info">(208) 555-0112</p>
+                        <p class="window__user-info">jacob@yahoo.com</p>
+                        <p class="window__user-info">Brazil</p>
+                        <p class="window__user-info window__user-info_online_active">Active</p>
+                    </div>
+                    <div class="window__user-item">
+                        <p class="window__user-info">Kristin Watson</p>
+                        <p class="window__user-info">Facebook</p>
+                        <p class="window__user-info">(704) 555-0127</p>
+                        <p class="window__user-info">kristin@facebook.com</p>
+                        <p class="window__user-info">Åland Islands</p>
+                        <p class="window__user-info window__user-info_online_inactive">Inactive</p>
+                    </div>
+                </div>
+                <footer class="window__pagination">
+                    <p class="window__entries">
+                        Showing data 1 to 8 of 256K entries
+                    </p>
+                    <div class="window__pages">
+                        <p class="window__arrow-container"> 
+                            <span class="window__arrow window__arrow_direction_left"></span>
+                        </p>
+                        <p class="window__page window__page_active">1</p>
+                        <p class="window__page">2</p>
+                        <p class="window__page">3</p>
+                        <p class="window__page">4</p>
+                        <span class="window__dots">...</span>
+                        <p class="window__page">40</p>
+                        <p class="window__arrow-container">
+                            <span class="window__arrow window__arrow_direction_right"></span>
+                        </p>
+                    </div>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
